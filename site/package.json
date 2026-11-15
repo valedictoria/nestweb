@@ -1,0 +1,10 @@
+{
+  "name": "nestweb",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Nest Chess engine showcase",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check dist/app.js && node --check server.mjs"
+  }
+}
